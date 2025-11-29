@@ -12,7 +12,7 @@
 
 **MENTOR NAME**; NEELA SANTHOSH
 
-# 📁 File Handling Utility (Java)
+#  File Handling Utility (Java)
 
 A simple and user-friendly Java application that demonstrates basic **file handling operations**, including:
 
@@ -24,29 +24,29 @@ This program uses the `java.io` package with `BufferedWriter`, `BufferedReader`,
 
 ---
 
-## 🚀 Features
+##  Features
 
-### ✔ 1. Write to File
+###  1. Write to File
 - Creates a new file if it does not exist.
 - Overwrites existing content.
 - Uses `BufferedWriter` for efficient writing.
 
-### ✔ 2. Read File
+###  2. Read File
 - Reads the content of a given file line-by-line.
 - Displays the content in a clean format.
 - Uses `BufferedReader`.
 
-### ✔ 3. Modify / Append File
+###  3. Modify / Append File
 - Appends new text without removing existing data.
 - Adds content on a new line.
 
-### ✔ 4. Menu-Driven Program
+###  4. Menu-Driven Program
 - Users can select operations through simple input choices.
 - Includes proper error handling for missing files and I/O issues.
 
 ---
 
-## 🧵 Code Structure
+##  Code Structure
 
 The program contains three core methods:
 
@@ -58,7 +58,7 @@ The program contains three core methods:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Java (JDK 8+)**
 - **java.io package**
@@ -68,7 +68,7 @@ The program contains three core methods:
 
 ---
 
-## 📌 How to Run
+##  How to Run
 
 1. Clone the repository:
    ```sh
