@@ -12,4 +12,64 @@
 
 **MENTOR NAME**; NEELA SANTHOSH
 
-# The provided Java program is a File Handling Utility that enables users to perform three core file operations: writing, reading, and modifying (appending) text files. It uses the `java.io` package and employs efficient classes like `BufferedWriter` and `BufferedReader` for file I/O operations. The `writeToFile` method creates a file (if it doesn’t exist) and writes the specified content, while the `readFromFile` method reads and displays the file’s content line by line. The `modifyFile` method appends new content to an existing file without overwriting its current data. The program uses a menu-driven approach, allowing users to choose an operation by entering their file name and desired action. Proper error handling ensures that issues, such as missing files, are managed gracefully, while the use of try-with-resources ensures automatic stream closure to prevent resource leaks. This utility provides a simple, modular, and user-friendly way to manage text files for basic file manipulation needs.
+# 📁 File Handling Utility (Java)
+
+A simple and user-friendly Java application that demonstrates basic **file handling operations**, including:
+
+- Writing to a file  
+- Reading from a file  
+- Modifying (appending) a file  
+
+This program uses the `java.io` package with `BufferedWriter`, `BufferedReader`, and `FileWriter` to efficiently manage text files. A menu-driven approach allows users to choose operations easily.
+
+---
+
+## 🚀 Features
+
+### ✔ 1. Write to File
+- Creates a new file if it does not exist.
+- Overwrites existing content.
+- Uses `BufferedWriter` for efficient writing.
+
+### ✔ 2. Read File
+- Reads the content of a given file line-by-line.
+- Displays the content in a clean format.
+- Uses `BufferedReader`.
+
+### ✔ 3. Modify / Append File
+- Appends new text without removing existing data.
+- Adds content on a new line.
+
+### ✔ 4. Menu-Driven Program
+- Users can select operations through simple input choices.
+- Includes proper error handling for missing files and I/O issues.
+
+---
+
+## 🧵 Code Structure
+
+The program contains three core methods:
+
+| Method | Purpose |
+|--------|---------|
+| `writeToFile()` | Writes new content to a file (creates/overwrites). |
+| `readFromFile()` | Reads and displays file content. |
+| `modifyFile()` | Appends new text to an existing file. |
+
+---
+
+## 🛠 Technologies Used
+
+- **Java (JDK 8+)**
+- **java.io package**
+- BufferedReader / BufferedWriter  
+- FileWriter / FileReader  
+- Scanner for input  
+
+---
+
+## 📌 How to Run
+
+1. Clone the repository:
+   ```sh
+   git clone <your-repository-link>
